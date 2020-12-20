@@ -23,6 +23,25 @@ body, html {
     background: rgb(24, 110, 172) !important;
 }
 .footer {
-    font-size: 12px !important;
     color: rgb(187, 186, 186);
+}
+#footer-links {
+    color: rgb(187, 186, 186);
+    position: absolute;
+    bottom: 0;
+    margin: 0px auto !important;
+}
+@media only screen and (max-width:1240px) {
+    #footer-links {
+        color: rgb(187, 186, 186);
+        position: static;
+    }
+    #footer-links p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .br-sm {
+        display: none;
+    }
 }
